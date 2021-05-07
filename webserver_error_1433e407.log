@@ -1,0 +1,16 @@
+[Tue Jul 21 21:41:29.879160 2020] [core:warn] [pid 13668:tid 596] AH00117: Ignoring deprecated use of DefaultType in line 21 of D:/Workspace/PHPRunner/My_Project/tmp/webserver.conf.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::b892:4dfb:7159:8d93. Set the 'ServerName' directive globally to suppress this message
+[Tue Jul 21 21:41:29.955658 2020] [mpm_winnt:notice] [pid 13668:tid 596] AH00455: Apache/2.4.37 (Win32) PHP/5.6.40 configured -- resuming normal operations
+[Tue Jul 21 21:41:29.955658 2020] [mpm_winnt:notice] [pid 13668:tid 596] AH00456: Apache Lounge VC11 Server built: Oct 22 2018 14:14:30
+[Tue Jul 21 21:41:29.955658 2020] [core:notice] [pid 13668:tid 596] AH00094: Command line: 'D:\\Application Files\\PHPRunner10.4\\EmbeddedServer\\bin\\httpd.exe -d D:/Application Files/PHPRunner10.4/EmbeddedServer -d D:\\Application Files\\PHPRunner10.4\\EmbeddedServer -f D:\\Workspace\\PHPRunner\\My_Project\\tmp\\webserver.conf'
+[Tue Jul 21 21:41:29.957654 2020] [mpm_winnt:notice] [pid 13668:tid 596] AH00418: Parent: Created child process 8796
+[Tue Jul 21 21:41:30.715471 2020] [core:warn] [pid 8796:tid 584] AH00117: Ignoring deprecated use of DefaultType in line 21 of D:/Workspace/PHPRunner/My_Project/tmp/webserver.conf.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::b892:4dfb:7159:8d93. Set the 'ServerName' directive globally to suppress this message
+[Tue Jul 21 21:41:31.049684 2020] [core:warn] [pid 8796:tid 584] AH00117: Ignoring deprecated use of DefaultType in line 21 of D:/Workspace/PHPRunner/My_Project/tmp/webserver.conf.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::b892:4dfb:7159:8d93. Set the 'ServerName' directive globally to suppress this message
+[Tue Jul 21 21:41:31.123434 2020] [mpm_winnt:notice] [pid 8796:tid 584] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 21 22:20:41.620965 2020] [:error] [pid 8796:tid 1372] [client 127.0.0.1:55881] script 'D:/Workspace/PHPRunner/My_Project/output/my_data_list.php' not found or unable to stat, referer: http://localhost:8086/menu.php
+[Tue Jul 21 23:31:29.373321 2020] [:error] [pid 8796:tid 1356] [client 127.0.0.1:56220] script 'D:/Workspace/PHPRunner/My_Project/output/my_data_list.php' not found or unable to stat, referer: http://localhost:8086/menu.php
+[Wed Jul 22 20:49:45.527048 2020] [mpm_winnt:notice] [pid 13668:tid 596] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jul 22 20:49:47.558424 2020] [mpm_winnt:notice] [pid 8796:tid 584] AH00364: Child: All worker threads have exited.
+[Wed Jul 22 20:49:47.854300 2020] [mpm_winnt:notice] [pid 13668:tid 596] AH00430: Parent: Child process 8796 exited successfully.
